@@ -1,0 +1,18 @@
+{
+  "name": "simple-preact-monaco-editor",
+  "version": "1.0.0",
+  "description": "Simple Preact app with Monaco Editor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node esbuild.config.js --serve",
+    "build": "node esbuild.config.js"
+  },
+  "dependencies": {
+    "preact": "^10.19.3",
+    "@monaco-editor/react": "^4.6.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "serve-handler": "^6.1.5"
+  }
+}
